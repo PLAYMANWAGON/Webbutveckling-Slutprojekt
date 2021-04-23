@@ -7,9 +7,10 @@
 :root {
   --banner: #160f29;
   --main: #f3dfc1;
+  --main-accent: #ddbea8;
   --secondary: #368f8b;
   --secondary-accent: #246a73;
-  --tertaiary: #ddbea8;
+  
 }
 
 body {
