@@ -10,7 +10,6 @@
   --main-accent: #ddbea8;
   --secondary: #368f8b;
   --secondary-accent: #246a73;
-  
 }
 
 body {
@@ -38,4 +37,16 @@ h1:hover {
 
 h1:not(hover) {
   transition: 250ms ease-out;
+}
+
+.forecast-card {
+  margin: 2rem;
+  padding: 1.5rem;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+#app-root {
+  display: flex;
+  justify-content: center;
 }

@@ -1,0 +1,7 @@
+olika typer av strings för väder:
+
+    Partly-cloudy
+    cloudy
+    Rain
+    Rain-showers
+    clear
