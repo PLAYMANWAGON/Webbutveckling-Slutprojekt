@@ -40,7 +40,7 @@ h1:not(hover) {
 }
 
 .forecast-card {
-  margin: 2rem;
+  margin: 2vw;
   padding: 1.5rem;
   background-color: whitesmoke;
   border-radius: 10px;
