@@ -40,13 +40,33 @@ h1:not(hover) {
 }
 
 .forecast-card {
+  min-width: 120px;
+  border: 2px;
+  border-style: solid;
+  border-color: var(--secondary);
   margin: 2vw;
-  padding: 1.5rem;
+  padding: 1rem;
   background-color: whitesmoke;
   border-radius: 10px;
+}
+
+.forecast-card:hover {
+  transform: scale(1.5) translate(0, 0.5rem);
+  transition: ease-out 250ms;
 }
 
 #app-root {
   display: flex;
   justify-content: center;
 }
+
+span {
+  text-align: center;
+  font-size: 48px;
+}
+
+.weather {
+  text-align: center;
+  font-size: 14px;
+}
+

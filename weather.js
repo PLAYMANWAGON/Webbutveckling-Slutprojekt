@@ -14,13 +14,11 @@ fetch("https://api.troposphere.io/forecast/48.5,11.123?token=9df0e3cf695dd168892
 		forecastContainer.classList.add("forecast-card");
 		let tempSpan = document.createElement("span");
 		let weatherType = document.createElement("div");
-		weatherType.classList.add("weatherImg");
-		tempSpan.innerText = parseInt(day.temperature, 10) + "° C";
+		weatherType.classList.add("weather");
+		tempSpan.innerText = parseInt(day.temperature, 10) + "°C";
 		weatherType.innerText = day.type;
-		if (weatherType = "rain-showers") {
-			var img = document.createElement("img");
-			img.src = "rain.svg";
-		}
+		var str = day.type;
+		str = str.replace(/-/g, ' ');
 		forecastContainer.append(tempSpan);
 		forecastContainer.append(weatherType);
 		return forecastContainer;
